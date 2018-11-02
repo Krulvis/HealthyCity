@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>5.243295739192334</longitude>
+            <latitude>52.18122290998214</latitude>
+            <altitude>526428.475885334</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>425381.8205682107</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Folder>
+            <name>lucht:actueel_lki</name>
+            <LookAt>
+                <longitude>-13.42725446362762</longitude>
+                <latitude>27.85772436661184</latitude>
+                <altitude>3629183.9871836677</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>2932571.0184064065</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <GroundOverlay>
+                <name>lucht:actueel_lki</name>
+                <drawOrder>0</drawOrder>
+                <Icon>
+                    <href>http://geodata.rivm.nl:80/geoserver/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=image%2Fpng&amp;layers=lucht%3Aactueel_lki&amp;styles=lucht_lki&amp;height=500&amp;width=400&amp;transparent=true&amp;bbox=3.2445549851756157%2C50.728832178845686%2C7.375261101934474%2C53.597578767816536&amp;srs=EPSG%3A4326</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshMode>never</viewRefreshMode>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.75</viewBoundScale>
+                </Icon>
+                <altitude>0.0</altitude>
+                <LatLonBox>
+                    <north>53.597578767816536</north>
+                    <south>50.728832178845686</south>
+                    <east>3.2445549851756157</east>
+                    <west>7.375261101934474</west>
+                    <rotation>0.0</rotation>
+                </LatLonBox>
+            </GroundOverlay>
+        </Folder>
+    </Document>
+</kml>
