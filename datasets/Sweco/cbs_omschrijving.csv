@@ -1,0 +1,106 @@
+,Description,Code
+0,Region,regio
+1,Name of municipality,gm_naam
+2,Type of region,recs
+3,Encoding,gwb_code
+4,Indelingswijziging districts and neighborhoods,ind_wbi
+5,Number of inhabitants,inw
+6,Men,man
+7,Women,vrouw
+8,0 to 15 years,00_14
+9,15 to 25 years,15_24
+10,25 to 45 years old,25_44
+11,45 to 65 years old,45_64
+12,65 years of age or older,65_oo
+13,Unmarried,ongeh
+14,Married,gehuwd
+15,Separated,gesch
+16,Verweduwd,verwed
+17,Western total,w_all
+18,Non-western total,nw_all
+19,Morocco,marok
+20,Netherlands Antilles and Aruba,antaru
+21,Suriname,suri
+22,Turkey,tur
+23,Other non-western,ov_nw
+24,Birth total,geb
+25,Birth relatively,geb
+26,Mortality total,ste
+27,Mortality relatively,ste
+28,Households total,hh
+29,Households without children,hh_z_k
+30,Households with children,hh_m_k
+31,Average household size,hhgro
+32,Population density,bev_dich
+33,Housing stock,woning
+34,Average woningwaarde,woz
+35,Percentage of family house,1gezw
+36,Percentage of multiple dwelling units,mgezw
+37,Percentage of inhabited,bewndw
+38,Percentage of uninhabited,leegsw
+39,Owner-occupied housing,koopw
+40,Rental housing total,huurw
+41,In ownership housing association,wcorpw
+42,Possession of other landlords,ov_hw
+43,Property unknown,e_o_w
+44,Year of build 2000,bjj2k
+45,Year of build 2000,bjo2k
+46,Average electricity consumption total,ele
+47,Apartment,ele_ap
+48,House,ele_tw
+49,Corner house,ele_hw
+50,Two-under-one-roof-house,ele_2w
+51,Detached house,ele_vw
+52,Rental,ele_hu
+53,Own home,ele_ko
+54,Average natural gas consumption total,gas
+55,Apartment,gas_ap
+56,House,gas_tw
+57,Corner house,gas_hw
+58,Two-under-one-roof-house,gas_2w
+59,Detached house,gas_vw
+60,Rental,gas_hu
+61,Own home,gas_ko
+62,Percentage of dwellings with district heating,stadsv
+63,Number of inkomensontvangers,inkont
+64,Average income per inkomensontvanger,ink_po
+65,Average per capita income,ink_pi
+66,40% of people with lowest income,ink_li
+67,20% of people with highest income,ink_hi
+68,Active population 15-75 years,n_act
+69, 40% of households with lowest income,hh_li
+70,20% households with highest income,hh_hi
+71, Low-income households,hh_lkk
+72,Huish. under or around the social minimum,hh_osm
+73,"Persons, by type of benefit",soz_wb
+74,"Persons, by type of benefit",soz_ao
+75,"Persons, by type of benefit",soz_ww
+76,"Persons, by type of benefit",soz_ow
+77,Business establishments total,bedv
+78,"A Agriculture, forestry and fisheries",bed_a
+79,B-F Industry and energy,bed_bf
+80,G I Trade and catering,bed_gi
+81,"H J Transport, information and communication",bed_hj
+82,"K-L Financial services, real estate",bed_kl
+83,M-N Business services,bed_mn
+84,"R-U Culture, recreation, other services",bed_ru
+85,Passenger cars total,pau
+86,Passenger cars,lftj6j
+87,Passenger cars,lfto6j
+88,Passenger cars,bst_b
+89,Passenger cars,bst_nb
+90,Passenger cars per household,pau_hh
+91,Cars to surface,pau_km
+92,Motorcycles,m2w
+93,Distance to general medical practice,afs_hp
+94,Distance to large supermarket,afs_gs
+95,Distance to day nursery,afs_kv
+96,Distance to school,afs_sc
+97,Schools within 3 km,3km_sc
+98,Surface X total,opha
+99,Surface area country X,lan_ha
+100,Surface water X,wat_ha
+101,The most common zip code X,pst_mvp
+102,Percentage Of Coverage X,pst_dekp
+103,Degree of urbanisation X,ste_mvs
+104,Omgevingsadressendichtheid X,ste_oad
