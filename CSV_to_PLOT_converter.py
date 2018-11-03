@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[24]:
+# In[39]:
 
 
 import pandas as pd
@@ -11,6 +11,11 @@ import numpy as np
 from scipy.optimize import curve_fit
 from scipy.interpolate import UnivariateSpline
 from datetime import datetime, timedelta
+import geojson
+from descartes import PolygonPatch
+import matplotlib.pyplot as plt
+from mpl_toolkits.basemap import Basemap
+import numpy as np
 
 
 # In[37]:
@@ -20,7 +25,7 @@ def createFuture(filters , problem):
     
     #read DATA
     data = pd.read_csv('./export.csv', delimiter=";")
-    
+     
     #apply filter
     data = data.loc[
         (data['locatie'] == filters[0]) &
@@ -34,7 +39,15 @@ def createFuture(filters , problem):
     return returnVals
 
 # create custom data request
-data = createFuture(['Amsterdam-Van Diemenstraat'], 'CO')
+if "Vondelpark" in buurt_naam: 
+    data = createFuture(['Amsterdam-Vondelpark'], 'NO2')
+    continue
+    
+if "Vondelpark" not in buurt_naam:
+    data = createFuture(['Amsterdam-Stadhouderskade'], 'NO2')
+    continue
+
+
 
 #sort values by day (tijdstip)
 values = data[0].sort_values(by=['tijdstip'])
